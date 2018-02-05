@@ -1,0 +1,206 @@
+:root {
+  --grey: #e6e6e6;
+  --skyblue: #CAE4F1;
+}
+
+@font-face {
+  font-family: 'digital';
+  src: url('./digital-7.ttf');
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 1fr 6fr 2fr;
+}
+
+.data-box {
+  border-radius: 10px;
+  border: 1px solid grey;
+  width: 315px;
+  height: 130px;
+  padding: 10px;
+  margin: 5px;
+  background-color: var(--skyblue);
+  box-shadow: 2px 2px grey;
+}
+
+.data {
+  margin-top: 5px;
+}
+
+.consumptionData > ul, .weatherData > ul, .temperatureData > ul {
+  list-style-type: none;
+}
+.consumptionData > h4, .weatherData > h4, .temperatureData > h4 {
+  text-decoration: underline;
+}
+
+
+/* Navbar.js */
+
+.logo {
+  height: 40px;
+  width: 180px;
+  padding: 10px;
+}
+
+.navbar {
+  background-color: var(--grey);
+}
+
+.navbar > h1 {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 30px;
+  margin: 17px auto 0 180px;
+  font-family: sans-serif;
+}
+
+/* Navigation Data */
+
+.navigationData {
+  font-family: sans-serif;
+}
+
+.navigationData > h4 {
+  font-size: 17px;
+  text-decoration: underline;
+}
+
+#level1-nav-list {
+  display: inline-block;
+  padding: 5px 5px 5px 0;
+  margin-right: 20px;
+}
+#level2-nav-list {
+  display: inline-block;
+}
+
+#level1-nav-list > h6, #level2-nav-list > h6 {
+  text-decoration: underline;
+}
+
+#level1-nav-list li, #level2-nav-list li {
+  list-style-position: inside;
+}
+
+/* Consumption */
+
+.consumptionData {
+  height: 110px;
+}
+
+.consumptionData > h4 {
+  font-family: sans-serif;
+  font-size: 19px;
+}
+
+.consumptionData li {
+  font-family: sans-serif;
+  font-size: 17px;
+  padding: 2px;
+}
+
+.consumptionData li span {
+  color:  blue;
+  font-family: 'digital';
+}
+
+/* Weather */
+
+.weatherData {
+  height: 100px;
+}
+
+.weatherData > ul {
+  display: inline-block;
+}
+.weatherData li {
+  font-size: 17px;
+  font-family: sans-serif;
+}
+
+.weatherData > h4 {
+  font-family: sans-serif;
+  font-size: 19px;
+}
+
+.weatherData > img {
+  float: right;
+  height: 90px;
+  width: 90px;
+}
+
+/* Temperature Data */
+
+.temperatureData {
+  height: 100px;
+}
+
+.temperatureData > h4 {
+  font-family: sans-serif;
+  font-size: 19px;
+}
+
+.temperatureData li {
+  font-size: 17px;
+  font-family: sans-serif;
+}
+
+.temperatureData li span {
+  color:  blue;
+  font-family: 'digital';
+}
+
+
+/* Floorplan */
+
+.floorplan {
+  margin-left: 70px;
+}
+
+.floorplan-img {
+  height: 260px;
+  width: 60%;
+  margin-top: 10px;
+}
+
+.levelButton{
+  display: inline-block;
+}
+
+
+/* Switch */
+
+.switch-on, .switch-off {
+  display: block;
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  height: 40px;
+  width: 120px;
+}
+
+.switch-on {
+  background-color: green;
+}
+
+.switch-off {
+  background-color: red
+}
+
+/* Level Button */
+
+.levelButton button {
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 4px 12px;
+  margin: 10px;
+}
