@@ -1,12 +1,12 @@
 import React from 'react';
 import '../styles/index.css'
-import Navbar from './navbar.js';
-import NavigationData from './navigation-data.js';
-import ConsumptionData from './consumption-data.js';
-import WeatherData from './weather-data.js';
-import TemperatureData from './temperature-data.js';
-import Switch from './switch.js';
-import Floorplan from './floorplan.js';
+import Navbar from './Navbar.js';
+import NavigationData from './NavigationData.js';
+import ConsumptionData from './ConsumptionData.js';
+import WeatherData from './WeatherData.js';
+import TemperatureData from './TemperatureData.js';
+import Switch from './Switch.js';
+import Floorplan from './Floorplan.js';
 
 
 class App extends React.Component {
@@ -24,7 +24,6 @@ class App extends React.Component {
             <TemperatureData/>
             </div>
         </div>
-
       </div>
     )
   }

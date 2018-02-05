@@ -1,7 +1,6 @@
 import React from 'react';
 
-class navigationData extends React.Component {
-  render(){
+function NavigationData() {
     return (
       <div className="navigationData data-box">
         <h4>Navigation</h4>
@@ -25,8 +24,7 @@ class navigationData extends React.Component {
           <li>Office Area</li>
         </ol>
       </div>
-    )
-  }
+    );
 }
 
-export default navigationData;
+export default NavigationData;

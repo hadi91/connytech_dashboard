@@ -1,10 +1,9 @@
 import React from 'react';
 import level1 from '../images/level1a.jpg';
 import level2 from '../images/level2a.jpeg';
-import LevelButton from './level-button.js';
+import LevelButton from './LevelButton.js';
 
-class floorplan extends React.Component {
-  render(){
+function Floorplan(){
     return (
       <div className="floorplan">
         <div className="floorplan2">
@@ -16,9 +15,9 @@ class floorplan extends React.Component {
           <img src={level1} alt="level1 floorplan" className="floorplan-img"/>
         </div>
       </div>
-    )
-  }
+    );
 }
 
 
-export default floorplan;
+
+export default Floorplan;

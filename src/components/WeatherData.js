@@ -1,6 +1,6 @@
 import React from 'react';
 
-class weatherData extends React.Component {
+class WeatherData extends React.Component {
   constructor(props){
     super(props);
 
@@ -46,4 +46,4 @@ class weatherData extends React.Component {
 }
 
 
-export default weatherData;
+export default WeatherData;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-class consumptionData extends React.Component {
+class ConsumptionData extends React.Component {
   constructor(props){
     super(props);
 
@@ -40,4 +40,4 @@ class consumptionData extends React.Component {
   }
 }
 
-export default consumptionData;
+export default ConsumptionData;
